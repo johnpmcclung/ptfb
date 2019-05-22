@@ -10,4 +10,4 @@ for item in cart:
     print(f"Item cost... {item}")
     total += item
 
-print(f"Total cost of {cart.count} items... ${total}")
+print(f"Total cost of {len(cart)} items... ${total}")
